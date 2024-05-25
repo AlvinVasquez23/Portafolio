@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Alwin</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+   <header class="header">
+        <a href="#" class="logo">Portafolio</a>
+        <i class='bx bx-menu' id="menu_icon"></i>
+        <nav class="navegador">
+            <a href="#about" class="active">Sobre mí</a>
+            <a href="#skills">Skills</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+   </header> 
+
+   <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hola, mi nombre es</h3>
+            <h1>Alwin Huaman</h1>
+            <h3>Soy <span>estudiante de Front End</span></h3>
+            <p>Actualmente estoy llevando formación en HTML, CSS y Javascript a traves del proyecto Oracle ONE desarrollado por Alura Latam.</p>
+        
+            <div class="social_media">
+                <a href="#Linkedin">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="#Github">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home_img">
+            <img src="images/perfil.png" alt="foto de perfil">
+        </div>
+   </section>
+
+   <section class="about" id="about">
+        <div class="about_img">
+            <img src="/images/about.png" alt="foto de perfil">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>mí</span></h2>
+            <h3>Estudiante de Front End!</h3>
+            <p>Hola mi nombre es Alwin Huaman estudie Administración Logistica y trabajo en el area logistica de una empresa, soy una persona autodidacta que le gusta adquirir conocimientos en temas relacionados a mi profesión. Esto hizo que un dia llegara a un video sobre programación desde ese momento me sumergi mas en este mundo y descubri lo emocionante y retador que es aprender sobre programación tanto asi que decidi incursionar en el desarrollo web y especializarme en Front End gracias Oracle one y Alura Latam que a traves de ellos pude obtener  las herramientas necesarias para lograrlo. Mi meta es covertirme en un profesional del desarrollo web a mediano plazo y dedicarme a tiempo completo a esto</p>
+
+            <a href="#" class="btn">Leer más</a>
+        </div>
+   </section>
+   <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Desarrollo Web</h3>
+                <p>Desarrollo Web con HTML, CSS y JavaScript</p>
+                <a href="#" class="btn">Leer más</a>
+                <div class="logos">
+                    <img src="/images/HTML.png" alt="logo HTML">
+                    <img src="/images/CSS.png" alt="logo CSS">
+                    <img src="/images/JS.png" alt="logo JS">
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <section class="proyectos" id="proyectos">
+        <h2 class="heading">Mis <span>Proyectos</span></h2>
+        <div class="proyectos-container">
+            <div class="proyectos-box">
+                <img src="/images/numero_secreto.png" alt="">
+                <div class="proyecto-layer">
+                    <h4>Juego del numero secreto</h4>
+                    <p>Este proyecto fue desarrollado en sesión de clases de Alura Latam como parte del curso "Principiante en Programación"</p>
+                    <a href="#"><i class='bx bx-link-external'></i> </a>
+                </div>
+            </div>
+
+            <div class="proyectos-box">
+                <img src="/images/barberia_alura.PNG" alt="">
+                <div class="proyecto-layer">
+                    <h4>Barberia Alura</h4>
+                    <p>Este proyecto fue desarrollado en sesión de clases de Alura Latam como parte del curso "Mi Primera Pagina Web"</p>
+                    <a href="#"><i class='bx bx-link-external'></i> </a>
+                </div>
+            </div>
+
+            <div class="proyectos-box">
+                <img src="/images/encriptador.PNG" alt="">
+                <div class="proyecto-layer">
+                    <h4>Encriptador de Texto</h4>
+                    <p>Este proyecto fue desarrollado como parte del Challenge de Alura Latam del curso "Principiante en Programación</p>
+                    <a href="#"><i class='bx bx-link-external'></i> </a>
+                </div>
+            </div>
+
+        </div>
+   </section>
+
+   <section class="contacto" id="contacto">
+        <h2 class="heading">Contactame</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nombre completo">
+                <input type="email" placeholder="Correo Electronico">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Numero de telefono">
+                <input type="text" placeholder="Asunto">
+            </div>
+            <textarea name="" id="" placeholder="Ingresa tu mensaje"></textarea>
+            <input type="submit" value="Enviar Mensaje" class="btn">
+        </form>
+   </section>
+
+   <footer class="footer">
+        <div class="texto-footer">
+            <p>Copyright &copy; 2024 by Alwin Huaman | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+   </footer>
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="app.js"></script>
+</body>
+
+
+</html>
